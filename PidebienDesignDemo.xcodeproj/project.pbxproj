@@ -47,9 +47,9 @@
 		D992C054276A4FC0009FB111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992C052276A4FC0009FB111 /* Main.storyboard */; };
 		D992C056276A4FC2009FB111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D992C055276A4FC2009FB111 /* Assets.xcassets */; };
 		D992C059276A4FC2009FB111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D992C057276A4FC2009FB111 /* LaunchScreen.storyboard */; };
-		D992C064276A4FC2009FB111 /* Sign_Up_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C063276A4FC2009FB111 /* Sign_Up_DemoTests.swift */; };
-		D992C06E276A4FC2009FB111 /* Sign_Up_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C06D276A4FC2009FB111 /* Sign_Up_DemoUITests.swift */; };
-		D992C070276A4FC2009FB111 /* Sign_Up_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C06F276A4FC2009FB111 /* Sign_Up_DemoUITestsLaunchTests.swift */; };
+		D992C064276A4FC2009FB111 /* PidebienDesignDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C063276A4FC2009FB111 /* PidebienDesignDemoTests.swift */; };
+		D992C06E276A4FC2009FB111 /* PidebienDesignDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C06D276A4FC2009FB111 /* PidebienDesignDemoUITests.swift */; };
+		D992C070276A4FC2009FB111 /* PidebienDesignDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992C06F276A4FC2009FB111 /* PidebienDesignDemoUITestsLaunchTests.swift */; };
 		D9B1412F27BE5824004A04CE /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B1412E27BE5824004A04CE /* SideMenuViewController.swift */; };
 		D9B1413127BE5865004A04CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B1413027BE5865004A04CE /* MainViewController.swift */; };
 		D9B5112027BCBF400065F19D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5111F27BCBF400065F19D /* HomeViewController.swift */; };
@@ -125,18 +125,18 @@
 		D991E7D0277341E6008752B7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		D991E7D2277346F1008752B7 /* UIAlertControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtention.swift; sourceTree = "<group>"; };
 		D992AB1D2774AE0000903EDC /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
-		D992C049276A4FC0009FB111 /* Sign_Up_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sign_Up_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D992C049276A4FC0009FB111 /* PidebienDesignDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PidebienDesignDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D992C04E276A4FC0009FB111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D992C050276A4FC0009FB111 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D992C053276A4FC0009FB111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D992C055276A4FC2009FB111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D992C058276A4FC2009FB111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D992C05A276A4FC2009FB111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D992C05F276A4FC2009FB111 /* Sign_Up_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sign_Up_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D992C063276A4FC2009FB111 /* Sign_Up_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Up_DemoTests.swift; sourceTree = "<group>"; };
-		D992C069276A4FC2009FB111 /* Sign_Up_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sign_Up_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D992C06D276A4FC2009FB111 /* Sign_Up_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Up_DemoUITests.swift; sourceTree = "<group>"; };
-		D992C06F276A4FC2009FB111 /* Sign_Up_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_Up_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D992C05F276A4FC2009FB111 /* PidebienDesignDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PidebienDesignDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D992C063276A4FC2009FB111 /* PidebienDesignDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidebienDesignDemoTests.swift; sourceTree = "<group>"; };
+		D992C069276A4FC2009FB111 /* PidebienDesignDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PidebienDesignDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D992C06D276A4FC2009FB111 /* PidebienDesignDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidebienDesignDemoUITests.swift; sourceTree = "<group>"; };
+		D992C06F276A4FC2009FB111 /* PidebienDesignDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidebienDesignDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9B1412E27BE5824004A04CE /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		D9B1413027BE5865004A04CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D9B5111F27BCBF400065F19D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -267,9 +267,9 @@
 		D992C040276A4FC0009FB111 = {
 			isa = PBXGroup;
 			children = (
-				D992C04B276A4FC0009FB111 /* Sign_Up_Demo */,
-				D992C062276A4FC2009FB111 /* Sign_Up_DemoTests */,
-				D992C06C276A4FC2009FB111 /* Sign_Up_DemoUITests */,
+				D992C04B276A4FC0009FB111 /* PidebienDesignDemo */,
+				D992C062276A4FC2009FB111 /* PidebienDesignDemoTests */,
+				D992C06C276A4FC2009FB111 /* PidebienDesignDemoUITests */,
 				D992C04A276A4FC0009FB111 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -277,14 +277,14 @@
 		D992C04A276A4FC0009FB111 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D992C049276A4FC0009FB111 /* Sign_Up_Demo.app */,
-				D992C05F276A4FC2009FB111 /* Sign_Up_DemoTests.xctest */,
-				D992C069276A4FC2009FB111 /* Sign_Up_DemoUITests.xctest */,
+				D992C049276A4FC0009FB111 /* PidebienDesignDemo.app */,
+				D992C05F276A4FC2009FB111 /* PidebienDesignDemoTests.xctest */,
+				D992C069276A4FC2009FB111 /* PidebienDesignDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D992C04B276A4FC0009FB111 /* Sign_Up_Demo */ = {
+		D992C04B276A4FC0009FB111 /* PidebienDesignDemo */ = {
 			isa = PBXGroup;
 			children = (
 				D92796CC27BA44E900398A00 /* ViewModel */,
@@ -298,24 +298,25 @@
 				D9C1923227706A3B0077C782 /* Model */,
 				D9C1923127706A230077C782 /* View */,
 			);
-			path = Sign_Up_Demo;
+			path = PidebienDesignDemo;
 			sourceTree = "<group>";
 		};
-		D992C062276A4FC2009FB111 /* Sign_Up_DemoTests */ = {
+		D992C062276A4FC2009FB111 /* PidebienDesignDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D992C063276A4FC2009FB111 /* Sign_Up_DemoTests.swift */,
+				D992C063276A4FC2009FB111 /* PidebienDesignDemoTests.swift */,
 			);
-			path = Sign_Up_DemoTests;
-			sourceTree = "<group>";
+			name = PidebienDesignDemoTests;
+			path = "/Users/brainxiosdev/Development/Projects/Personal Demo Projects/Swift UIKit Projects/Sign_Up_Demo/PidebienDesignDemoTests";
+			sourceTree = "<absolute>";
 		};
-		D992C06C276A4FC2009FB111 /* Sign_Up_DemoUITests */ = {
+		D992C06C276A4FC2009FB111 /* PidebienDesignDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D992C06D276A4FC2009FB111 /* Sign_Up_DemoUITests.swift */,
-				D992C06F276A4FC2009FB111 /* Sign_Up_DemoUITestsLaunchTests.swift */,
+				D992C06D276A4FC2009FB111 /* PidebienDesignDemoUITests.swift */,
+				D992C06F276A4FC2009FB111 /* PidebienDesignDemoUITestsLaunchTests.swift */,
 			);
-			path = Sign_Up_DemoUITests;
+			path = PidebienDesignDemoUITests;
 			sourceTree = "<group>";
 		};
 		D9B5112F27BCC8BE0065F19D /* CollectionView */ = {
@@ -406,9 +407,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D992C048276A4FC0009FB111 /* Sign_Up_Demo */ = {
+		D992C048276A4FC0009FB111 /* PidebienDesignDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D992C073276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_Demo" */;
+			buildConfigurationList = D992C073276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemo" */;
 			buildPhases = (
 				D992C045276A4FC0009FB111 /* Sources */,
 				D992C046276A4FC0009FB111 /* Frameworks */,
@@ -418,14 +419,14 @@
 			);
 			dependencies = (
 			);
-			name = Sign_Up_Demo;
+			name = PidebienDesignDemo;
 			productName = Sign_Up_Demo;
-			productReference = D992C049276A4FC0009FB111 /* Sign_Up_Demo.app */;
+			productReference = D992C049276A4FC0009FB111 /* PidebienDesignDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D992C05E276A4FC2009FB111 /* Sign_Up_DemoTests */ = {
+		D992C05E276A4FC2009FB111 /* PidebienDesignDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D992C076276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_DemoTests" */;
+			buildConfigurationList = D992C076276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemoTests" */;
 			buildPhases = (
 				D992C05B276A4FC2009FB111 /* Sources */,
 				D992C05C276A4FC2009FB111 /* Frameworks */,
@@ -436,14 +437,14 @@
 			dependencies = (
 				D992C061276A4FC2009FB111 /* PBXTargetDependency */,
 			);
-			name = Sign_Up_DemoTests;
+			name = PidebienDesignDemoTests;
 			productName = Sign_Up_DemoTests;
-			productReference = D992C05F276A4FC2009FB111 /* Sign_Up_DemoTests.xctest */;
+			productReference = D992C05F276A4FC2009FB111 /* PidebienDesignDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D992C068276A4FC2009FB111 /* Sign_Up_DemoUITests */ = {
+		D992C068276A4FC2009FB111 /* PidebienDesignDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D992C079276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_DemoUITests" */;
+			buildConfigurationList = D992C079276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemoUITests" */;
 			buildPhases = (
 				D992C065276A4FC2009FB111 /* Sources */,
 				D992C066276A4FC2009FB111 /* Frameworks */,
@@ -454,9 +455,9 @@
 			dependencies = (
 				D992C06B276A4FC2009FB111 /* PBXTargetDependency */,
 			);
-			name = Sign_Up_DemoUITests;
+			name = PidebienDesignDemoUITests;
 			productName = Sign_Up_DemoUITests;
-			productReference = D992C069276A4FC2009FB111 /* Sign_Up_DemoUITests.xctest */;
+			productReference = D992C069276A4FC2009FB111 /* PidebienDesignDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -482,7 +483,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D992C044276A4FC0009FB111 /* Build configuration list for PBXProject "Sign_Up_Demo" */;
+			buildConfigurationList = D992C044276A4FC0009FB111 /* Build configuration list for PBXProject "PidebienDesignDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -495,9 +496,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D992C048276A4FC0009FB111 /* Sign_Up_Demo */,
-				D992C05E276A4FC2009FB111 /* Sign_Up_DemoTests */,
-				D992C068276A4FC2009FB111 /* Sign_Up_DemoUITests */,
+				D992C048276A4FC0009FB111 /* PidebienDesignDemo */,
+				D992C05E276A4FC2009FB111 /* PidebienDesignDemoTests */,
+				D992C068276A4FC2009FB111 /* PidebienDesignDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -598,7 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D992C064276A4FC2009FB111 /* Sign_Up_DemoTests.swift in Sources */,
+				D992C064276A4FC2009FB111 /* PidebienDesignDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,8 +607,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D992C06E276A4FC2009FB111 /* Sign_Up_DemoUITests.swift in Sources */,
-				D992C070276A4FC2009FB111 /* Sign_Up_DemoUITestsLaunchTests.swift in Sources */,
+				D992C06E276A4FC2009FB111 /* PidebienDesignDemoUITests.swift in Sources */,
+				D992C070276A4FC2009FB111 /* PidebienDesignDemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,12 +617,12 @@
 /* Begin PBXTargetDependency section */
 		D992C061276A4FC2009FB111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D992C048276A4FC0009FB111 /* Sign_Up_Demo */;
+			target = D992C048276A4FC0009FB111 /* PidebienDesignDemo */;
 			targetProxy = D992C060276A4FC2009FB111 /* PBXContainerItemProxy */;
 		};
 		D992C06B276A4FC2009FB111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D992C048276A4FC0009FB111 /* Sign_Up_Demo */;
+			target = D992C048276A4FC0009FB111 /* PidebienDesignDemo */;
 			targetProxy = D992C06A276A4FC2009FB111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -769,20 +770,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 229DFL4C29;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sign_Up_Demo/Info.plist;
+				INFOPLIST_FILE = PidebienDesignDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brainx.Sign-Up-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.PidebienDesignDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -797,20 +798,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 229DFL4C29;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sign_Up_Demo/Info.plist;
+				INFOPLIST_FILE = PidebienDesignDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brainx.Sign-Up-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brainx.PidebienDesignDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -838,7 +839,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sign_Up_Demo.app/Sign_Up_Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PidebienDesignDemo.app/PidebienDesignDemo";
 			};
 			name = Debug;
 		};
@@ -862,7 +863,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sign_Up_Demo.app/Sign_Up_Demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PidebienDesignDemo.app/PidebienDesignDemo";
 			};
 			name = Release;
 		};
@@ -913,7 +914,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D992C044276A4FC0009FB111 /* Build configuration list for PBXProject "Sign_Up_Demo" */ = {
+		D992C044276A4FC0009FB111 /* Build configuration list for PBXProject "PidebienDesignDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D992C071276A4FC2009FB111 /* Debug */,
@@ -922,7 +923,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D992C073276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_Demo" */ = {
+		D992C073276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D992C074276A4FC2009FB111 /* Debug */,
@@ -931,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D992C076276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_DemoTests" */ = {
+		D992C076276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D992C077276A4FC2009FB111 /* Debug */,
@@ -940,7 +941,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D992C079276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "Sign_Up_DemoUITests" */ = {
+		D992C079276A4FC2009FB111 /* Build configuration list for PBXNativeTarget "PidebienDesignDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D992C07A276A4FC2009FB111 /* Debug */,

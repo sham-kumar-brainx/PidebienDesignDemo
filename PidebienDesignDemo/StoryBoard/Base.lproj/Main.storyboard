@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -12,8 +13,8 @@
         <!--Sign Up View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Sign Up Page View" customClass="SignUpView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                <viewController storyboardIdentifier="SignUpViewController" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Sign Up Page View" customClass="SignUpView" customModule="PidebienDesignDemo" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -358,7 +359,7 @@
         <!--Main View Controller-->
         <scene sceneID="UCd-AU-jkp">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="HOc-vz-aMP" customClass="MainViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="HOc-vz-aMP" customClass="MainViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Div-hg-cse">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -373,8 +374,8 @@
         <!--Home View Controller-->
         <scene sceneID="RAr-mx-jpv">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="vAW-JT-GMK" customClass="HomeViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NsB-Rt-XdJ" customClass="PidenBienMainScreenView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                <viewController storyboardIdentifier="HomeViewController" id="vAW-JT-GMK" customClass="HomeViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NsB-Rt-XdJ" customClass="PidenBienMainScreenView" customModule="PidebienDesignDemo" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -555,8 +556,8 @@
         <!--Side Menu View Controller-->
         <scene sceneID="1QK-X7-rc8">
             <objects>
-                <viewController storyboardIdentifier="SideMenuViewController" id="4I7-OJ-pE2" customClass="SideMenuViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c8m-ZD-bNN" customClass="SideMenuView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                <viewController storyboardIdentifier="SideMenuViewController" id="4I7-OJ-pE2" customClass="SideMenuViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c8m-ZD-bNN" customClass="SideMenuView" customModule="PidebienDesignDemo" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -632,37 +633,37 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1YP-RD-iOA" userLabel="Tabs Stack View">
                                         <rect key="frame" x="0.0" y="146" width="414" height="300"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fu2-BN-lZC" userLabel="Home Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fu2-BN-lZC" userLabel="Home Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="x8I-hJ-XIM"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jka-Zl-Vc0" userLabel="My Orders Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jka-Zl-Vc0" userLabel="My Orders Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="FA1-XP-3Yf"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-o1-J5v" userLabel="Payment Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wdt-o1-J5v" userLabel="Payment Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="100" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="PYJ-hu-HbY"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebB-vu-PXG" userLabel="Addresses Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebB-vu-PXG" userLabel="Addresses Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="150" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="xOc-Zy-OEy"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sae-iK-GTd" userLabel="Shops Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sae-iK-GTd" userLabel="Shops Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="200" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="UOZ-VG-7vv"/>
                                                 </constraints>
                                             </view>
-                                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nGV-Xa-WWD" userLabel="Settings Tab" customClass="SideMenuActionView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nGV-Xa-WWD" userLabel="Settings Tab" customClass="SideMenuActionView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="250" width="414" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Fun-A1-0kZ"/>
@@ -750,7 +751,7 @@
         <!--My Orders View Controller-->
         <scene sceneID="edq-4f-fJR">
             <objects>
-                <viewController storyboardIdentifier="MyOrdersViewController" id="IrO-os-Brh" customClass="MyOrdersViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyOrdersViewController" id="IrO-os-Brh" customClass="MyOrdersViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5W4-nn-PlU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -765,7 +766,7 @@
         <!--Payment View Controller-->
         <scene sceneID="VpU-Yp-c58">
             <objects>
-                <viewController storyboardIdentifier="PaymentViewController" id="8g4-Qd-Qzg" customClass="PaymentViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentViewController" id="8g4-Qd-Qzg" customClass="PaymentViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gUb-qD-oer">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -780,8 +781,8 @@
         <!--Checkout View Controller-->
         <scene sceneID="JhZ-ai-b9s">
             <objects>
-                <viewController storyboardIdentifier="CheckoutViewController" id="6w2-db-4hT" customClass="CheckoutViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2Cp-18-nMX" customClass="CheckoutView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                <viewController storyboardIdentifier="CheckoutViewController" id="6w2-db-4hT" customClass="CheckoutViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Cp-18-nMX" customClass="CheckoutView" customModule="PidebienDesignDemo" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -803,7 +804,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-Sp-Ruw" userLabel="Address View" customClass="PaymentDetailView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-Sp-Ruw" userLabel="Address View" customClass="PaymentDetailView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="40" width="414" height="59.666666666666657"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <constraints>
@@ -817,7 +818,7 @@
                                                                     <constraint firstAttribute="height" constant="1" id="tyv-Xt-yH2"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBK-Mf-wuX" userLabel="Contact Info View" customClass="PaymentDetailView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBK-Mf-wuX" userLabel="Contact Info View" customClass="PaymentDetailView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="100.66666666666664" width="414" height="59.333333333333329"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <constraints>
@@ -851,14 +852,14 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLH-QK-03W" userLabel="ASAP View" customClass="PaymentMethodView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLH-QK-03W" userLabel="ASAP View" customClass="PaymentMethodView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="16" y="47.333333333333314" width="145" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="16" id="J2s-P1-8yM"/>
                                                                     <constraint firstAttribute="width" constant="145" id="Rax-mo-PRG"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAb-2p-sg0" userLabel="Schedule View" customClass="PaymentMethodView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAb-2p-sg0" userLabel="Schedule View" customClass="PaymentMethodView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="161" y="47.333333333333314" width="253" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="16" id="ee8-Pq-ptr"/>
@@ -871,7 +872,7 @@
                                                                     <constraint firstAttribute="height" constant="1" id="sfY-d6-jsE"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-X1-EXN" userLabel="Pick Up View" customClass="PaymentMethodView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBL-X1-EXN" userLabel="Pick Up View" customClass="PaymentMethodView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="16" y="93" width="145" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="145" id="FzF-KH-Er3"/>
@@ -905,7 +906,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-s6-YDF" userLabel="Payment Method View" customClass="PaymentDetailView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-s6-YDF" userLabel="Payment Method View" customClass="PaymentDetailView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="35.333333333333314" width="414" height="59.666666666666657"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <constraints>
@@ -1009,7 +1010,7 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yS-KU-FYE" customClass="PromoCodeView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yS-KU-FYE" customClass="PromoCodeView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="16" y="47.333333333333371" width="382" height="36"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="36" id="jwh-CC-4Ox"/>
@@ -1025,25 +1026,25 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N7W-L2-G2q">
                                                                 <rect key="frame" x="16" y="111.33333333333337" width="382" height="82"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypv-BO-9ci" userLabel="Subtotal View" customClass="PriceDisplayingView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypv-BO-9ci" userLabel="Subtotal View" customClass="PriceDisplayingView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="13"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="13" id="D5d-OX-XHU"/>
                                                                         </constraints>
                                                                     </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzN-8R-B3y" userLabel="Tax View" customClass="PriceDisplayingView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzN-8R-B3y" userLabel="Tax View" customClass="PriceDisplayingView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="23" width="382" height="13"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="13" id="wH1-Ig-Gvg"/>
                                                                         </constraints>
                                                                     </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gzm-cy-xGe" userLabel="Delivery View" customClass="PriceDisplayingView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gzm-cy-xGe" userLabel="Delivery View" customClass="PriceDisplayingView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="46" width="382" height="13"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="13" id="mxM-jE-f18"/>
                                                                         </constraints>
                                                                     </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0u-Ro-1OI" userLabel="Discounts View" customClass="PriceDisplayingView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0u-Ro-1OI" userLabel="Discounts View" customClass="PriceDisplayingView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="69" width="382" height="13"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="13" id="rR7-pr-6W8"/>
@@ -1058,7 +1059,7 @@
                                                                     <constraint firstAttribute="height" constant="1" id="cTP-to-5xO"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1I-mr-WcC" userLabel="Total Price View" customClass="PriceDisplayingView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1I-mr-WcC" userLabel="Total Price View" customClass="PriceDisplayingView" customModule="PidebienDesignDemo" customModuleProvider="target">
                                                                 <rect key="frame" x="16" y="224.33333333333337" width="382" height="13"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="13" id="SK3-BY-D2P"/>
@@ -1135,7 +1136,7 @@
                                                     <constraint firstAttribute="width" constant="36" id="KtR-9O-Sm8"/>
                                                 </constraints>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="Cross"/>
+                                                <state key="normal" image="cross"/>
                                                 <connections>
                                                     <action selector="crossButtonTaped:" destination="6w2-db-4hT" eventType="touchUpInside" id="gOA-kT-XCv"/>
                                                 </connections>
@@ -1232,8 +1233,8 @@
         <!--Order Summary View Controller-->
         <scene sceneID="NhS-MX-h3e">
             <objects>
-                <viewController storyboardIdentifier="OrderSummaryViewController" id="0NI-9r-VJh" customClass="OrderSummaryViewController" customModule="Sign_Up_Demo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jUX-Qg-jH0" customClass="OrderSummaryView" customModule="Sign_Up_Demo" customModuleProvider="target">
+                <viewController storyboardIdentifier="OrderSummaryViewController" id="0NI-9r-VJh" customClass="OrderSummaryViewController" customModule="PidebienDesignDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jUX-Qg-jH0" customClass="OrderSummaryView" customModule="PidebienDesignDemo" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1340,6 +1341,7 @@
         <image name="Pidebien" width="123.33333587646484" height="41"/>
         <image name="Share" width="36" height="36"/>
         <image name="apple-seeklogo.com" width="15" height="18.666666030883789"/>
+        <image name="cross" width="42" height="42"/>
         <image name="facebook-logo-2019" width="18" height="18"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

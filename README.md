@@ -50,7 +50,3 @@ The PidebienDesignDemo App is developed by **Sham Kumar**. If you have any quest
 ## License
 
 The PidebienDesignDemo App is released under the [MIT License](LICENSE). You are free to use, modify, and distribute the app as per the terms of the license.
-
----
-
-Thank you for using the Mars Photo App. We hope you enjoy exploring the fascinating Martian landscapes through the lens of rovers! Happy exploring! 🚀🪐

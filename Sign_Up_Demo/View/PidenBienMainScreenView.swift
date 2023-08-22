@@ -8,8 +8,9 @@ class PidenBienMainScreenView: UIView {
     @IBOutlet weak var deliveryTitle: UILabel!
     @IBOutlet weak var deliveryDescription: UILabel!
     @IBOutlet weak var cartButtonView: UIView!
+    @IBOutlet weak var sideMenuLogo: UIButton!
     
-    // MARK: - LifeCycle Methods
+    // MARK: - Lifecycle Methods
     override func awakeFromNib() {
         super.awakeFromNib()
         configure()
@@ -32,8 +33,8 @@ class PidenBienMainScreenView: UIView {
     private func customizeLabel(label: UILabel) {
         var mutableString = NSMutableAttributedString()
         let style = NSMutableParagraphStyle()
-        mutableString = NSMutableAttributedString(string: deliveryDescription.text ?? "", attributes: [NSAttributedString.Key.font: UIFont(name: "Georgia", size: 12.0)!])
-        mutableString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.hexStringToUIColor(hex: AppConstants.darkBlueColorHex), range: NSRange(location: 0,length: 4))
+        mutableString = NSMutableAttributedString(string: deliveryDescription.text ?? LocalizedKey.emptyString.string, attributes: [NSAttributedString.Key.font: UIFont(name: LocalizedKey.georgiaFont.string, size: 12.0)])
+        mutableString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.hexStringToUIColor(hex: AppConstants.darkBlueColorHex), range: NSRange(location: 0, length: 4))
         mutableString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.hexStringToUIColor(hex: AppConstants.LightBrownColorHex), range: NSRange(location: 4, length: mutableString.length - 4))
         label.attributedText = mutableString
     }
